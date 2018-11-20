@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Super Heroes</string>
+    <string name="name_story">Tên truyện</string>
+    <string name="name_hero">Name Hero</string>
+    <string-array name="name_heroes">
+        <item>Sugoku</item>
+        <item>Shazam</item>
+        <item>Thor</item>
+        <item>Pikachu</item>
+    </string-array>
 </resources>
-
