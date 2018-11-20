@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    tools:context=".DescripstionActivity">
 
-    <TextView
-        android:id="@+id/text_name_story"
-        style="@style/my_text_style"
+    <ImageView
+        android:id="@+id/image_hero"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/name_story"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_child"
+    <TextView
+        android:id="@+id/text_name_hero"
+        style="@style/my_text_style"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_name_story" />
+        app:layout_constraintTop_toBottomOf="@+id/image_hero" />
 </android.support.constraint.ConstraintLayout>
