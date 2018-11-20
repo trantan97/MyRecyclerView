@@ -6,6 +6,14 @@
         <item>Sugoku</item>
         <item>Shazam</item>
         <item>Thor</item>
+        <item>Zoro</item>
         <item>Pikachu</item>
+    </string-array>
+    <string-array name="name_storys">
+        <item>Dragon Ball</item>
+        <item>DC Comic</item>
+        <item>Marvel Comic</item>
+        <item>One Piece</item>
+        <item>Pokemon</item>
     </string-array>
 </resources>
